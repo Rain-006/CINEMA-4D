@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/walpaper.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu a{
+    color: white;
+}
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-img img{
+    width: 52px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu a{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 44px;
+}
+
+.book{
+    display: inline-block;
+    vertical-align: middle;
+}
+.book-call{
+    display: inline-block;
+    vertical-align: middle;
+}
+.book-button{
+    display: inline-block;
+    vertical-align: middle;
+}
+.book-button a button{
+    background-color: #490000;
+    color: white;
+    display: inline-flex;
+    padding: 14px 12px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sign a button{
+    background: none;
+    color: white;
+    display: inline-flex;
+    padding: 14px 12px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #FFF;
+}
+.line{
+    margin-top: 15px;
+    stroke-width: 2px solid white
+}
